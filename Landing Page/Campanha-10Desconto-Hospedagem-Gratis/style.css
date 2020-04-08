@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Paytone+One');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600i');
+
+
+
+*{margin:0; padding:0;}
+div, section, header, aside, nav, article, footer, iframe, ul, li, form, input, textarea, table, td, tr{box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; -o-box-sizing:border-box}
+
+/* Seleção com mouse */
+:-moz-selection {color:#fff; background:#394249;}
+::selection {color:#fff; background:#394249;}
+
+
+body{background:#fff; color:#394249; font-family: 'Raleway', sans-serif;}
+
+h1, h2{color:#fff; font-family: 'Paytone One', sans-serif; font-weight: 700; margin-bottom:20px;}
+h1,h2,h3{font-size:40px; color: #d41a31;}
+h3{font-family: 'Paytone One', sans-serif; color: #fff; font-size: 20px; padding-bottom: 20px}
+h4, h5, h6{font-size:30px; font-family: 'Paytone One', sans-serif;}
+p{font-family: 'Raleway', sans-serif; font-size:100%; line-height:26px;}
+a img{border:0;}
+p a, p a:visited, p a:active{color:#394249; text-decoration:underline;}
+p a:hover{color:#394249;}
+ul{list-style-position:inside; font-size:20px; margin-bottom:30px;}
+li{list-style-type:disc; line-height:26px;}
+
+hr{border: none; background-color: #d41a31; color: #d41a31; height: 6px; width: 4%; margin-left: auto; margin-right: auto; margin-top: 20px; margin-bottom: 50px;}
+
+
+.logo-3dev{background: url(imagens/logotipo_topo.png) no-repeat center; margin: auto; width: 100%; height: 60px; margin: 25px 0;}
+.imagem_topo{width: 100%;}
+
+/*chamada da campanha*/
+.container-campanha{width: 100%;}
+.container-campanha h2{padding: 60px 19px 0; text-align: center;}
+.container-campanha p{font-size: 18px;}
+.container_campanha_chamada{font-family: 'Raleway', sans-serif; width:100%; max-width: 1000px; padding:40px; margin:0 auto; padding: 0 15px 60px 15px;}
+.coluna{column-count:2; column-width:350px; column-gap:40px;}
+
+/*serviços*/
+.nossos_servicos{background: url(imagens/banner_vantagens.png) no-repeat center; -webkit-background-size: cover; background-size: cover; width: 100%; height: 100%;}
+.nossos_servicos h2{color: #fff; text-align: center; padding-top: 60px;}
+.nossos_servicos hr{background-color: #fff; color: #fff; height: 6px; width: 6%;}
+.servicos_chamada{color: #fff; text-align: center; width: 600px; padding: auto; margin: auto;}
+.container_servicos{text-align:center; color: #fff; padding: 0px 15px 52px 15px; width:1150px; margin:30px auto; height: 100%; min-height: 100%;}
+.flexbox{display:flex; justify-content:space-between;}
+.svcItem{padding: 0 40px; width:370px;}
+.svcItem p{font-size: 14px; line-height:20px;}
+.svcItem img{padding-bottom: 25px;}
+
+/*sobre a agência*/
+.sobre-3dev h2{margin-top: 20px; text-align: center;}
+.sobre-3dev p{text-align: center; width: 100%; max-width: 800px; margin: 0 auto; padding: 0 1px 80px 1px; font-size: 18px;}
+
+/*contato*/
+.fale_conosco{background: url(imagens/banner_rodape.png) no-repeat center; -webkit-background-size: cover; background-size: cover; width: 100%; height: 100%;}
+.container_contatos{text-align:left; color: #fff; width:1100px; height: 761px; margin: auto; padding: 0 15px 0 15px;}
+.flexbox_contato{padding-top: 78px; display: flex; justify-content:space-between;}
+.item_contato{width: 400px;}
+.item_contato h2{color: #fff; font-size: 36px; text-transform: uppercase;}
+.item_contato p{font-size: 20px;}
+
+
+.contact-form{background: rgba(255,  255,  255,  0.3); color: rgba(255,  255,  255,  0.3); width: 587px; height: 600px; padding: 19px 19px; }
+
+
+input[type=text], textarea, .contact-form input[type=text], .contact-form textarea{background: rgba(57,  66,  75,  0.7); color: rgba(57,  66,  75,  0.7); border: none; border-radius: 4px; width:100%; margin-bottom:20px; font-size: 17px; font-family: 'Raleway', sans-serif; font-weight: 300; color: #fff;}
+input[type=text],.contact-form input[type=text]{height: 60px; color: #fff;}
+textarea{height:140px; padding: 14px;}
+input[type=text], input[type=email]{padding:0 14px;}
+
+.contact-form input[type=text], .contact-form input[type=email]{width:540px}
+
+input[type=text], input[type=email], .btContato{line-height:35px; height:35px;}
+.btContato{background-color: #058ccc; border: none; font-family: 'Paytone One', sans-serif; font-size: 30px; color: #fff; font-weight: bold; width: 240px; height: 80px; float: right;}
+input[type=hidden]{display:none}
+.contact-form span{display:none}
+input[type=checkbox], .contact-form input[type=checkbox]{margin: 6px;}
+
+::-webkit-input-placeholder { color:#fff; }
+::-moz-placeholder { color:#fff; } /* firefox 19+ */
+:-ms-input-placeholder { color:#fff; } /* ie */
+input:-moz-placeholder { color:#fff; }
+/*Contato*/
+
+/*informações da Campanha*/
+.info-campanha{width: 100%; padding: 10px 0; background-color: #727272;}
+.flexbox-info-campanha{display:flex; justify-content: center; color: #fff;}
+.flexbox-item{padding: 0 40px; font-size: 13px; width: 100%; max-width: 498px; line-height: 20px;}
+/*informações da Campanha*/
+.clear{clear: both;}
+
+/*Sucesso de Envio*/
+.imagem_topo-msgsucesso{background: url(imagens/banner_pagina_contato.png) no-repeat center; width: 100%; height: 1200px;}
+
+.container-amarelo{position:fixed; top: 40%; left: 33%; background: rgba(220,  161,  1,  0.7); color: rgba(220,  161,  1,  0.7); width: 100%; max-width: 800px; padding: 153px 20px;}
+.container-laranja{position:absolute; top: 8%; left: 3%; background: rgba(196,  36,  0,  0.7); color: rgba(196,  36,  0,  0.7); width: 100%; max-width: 800px;}
+
+.container-laranja h2{color: #fff; font-size: 50px; line-height: 60px; padding: 70px 30px 0 30px; text-align: center; text-transform: uppercase;}
+.container-laranja p{color: #fff; font-size: 30px; text-align: center; padding: 0 0 70px 0; text-transform: uppercase;}
+/*Sucesso de Envio*/
+
+/*Regras do formulário de integração do formulário 3dev com e-mail marketing*/
+#formIntegration *, *::before, *::after{
+-webkit-box-sizing: border-box; /* webkit */
+-moz-box-sizing: border-box; /* firefox */
+box-sizing: border-box; /* css3 */
+}
+#formIntegration{ width: 100%; margin: 0 auto; }
+#formIntegration table { width: 100%;}
+#formIntegration input[type="text"]{outline:none; width: 100%; }    
+#formIntegration select{width:100%; overflow:auto;}
+#formIntegration select.invi-select{display:none; width:0px; height:0px; border:none;}
+#formIntegration textarea{width:100%; height:80px; overflow:auto; resize:vertical;}
+#formIntegration div.containerMultiple {width:100%; max-height:82px; overflow:auto; border: 1px solid #bec5cb;}
+#formIntegration div.containerMultiple div {height: 20px; overflow: hidden;}
+#formIntegration div.containerMultiple div input{float:left;}
+#formIntegration div.containerMultiple div label{float:left; padding-top:2px;}
+#formIntegration input.type_PHN_DDI{text-align:center;}
+#formIntegration .type_PHN_DDI_div {width: 28%; text-align: center; margin-right: 2%!important; position: relative; float: left; }
+#formIntegration .type_PHN_NUM_div {width: 70%; position: relative; float: left; }
+#formIntegration .field-error{ border-color: #CC0000 !important; }
+/*Regras do formulário de integração do formulário 3dev com e-mail marketing*/
+
+/*mobile*/
+@media all and (max-width:1150px){
+	.imagem_topo{
+		  max-width: 1920px;   /* Máximo da largura da imagem */
+          width: 100%;
+          max-height: 1080px;  /* Máximo da altura da imagem */
+          min-height: auto;      /* Mínimo da altura, por padrão “auto” */
+      }
+
+    .container-campanha h1{padding: 40px 19px 0;}
+
+	.container_campanha_chamada{width:100%; padding:40px; margin:0 auto; padding: 0 15px 60px 15px;}
+	.titulo_chamada{padding-top: 40px; padding:19px 0}
+	.coluna{column-count:1; column-width:350px;}
+
+	.servicos_chamada{width:calc(100% - 38px);}
+	.container_servicos{width:100%;}
+	.flexbox{display:block;}
+	.svcItem{width:calc(100% - 38px); max-width:400px; margin: 20px auto;}
+
+	.sobre-3dev p{width: calc(100% - 38px); padding-bottom: 80px;}
+
+	.fale_conosco{-webkit-background-size: cover; background-size: cover;}
+	.container_contatos{width:calc(100% - 38px);}
+	.item_contato{width:100%; margin-bottom:50px;}
+
+	.flexbox_contato{display:block; min-height:1200px}
+	
+	.contact-form{width: calc(100% - 5px);}
+	.contact-form input[type=text], .contact-form input[type=email]{width: 100%;}
+	.btContato{width: 100%; height: 60px; font-size: 25px;}
+
+	.flexbox-info-campanha{display:block;}
+	.flexbox-item{width:calc(100% - 38px); max-width:400px; margin: 20px auto; padding: 0 10px;}
+}
+@media screen and (max-width:1024px){
+	.container-amarelo{position:fixed; top:28% !important; left: 10%; width: 100%; padding: 153px 20px;}
+	.container-laranja{position:absolute; top: 8%; left: 3%; width: 100%;}
+}
+
+@media screen and (max-width:768px){
+	.container-amarelo{position:fixed; top:20% !important; left: 10%; width: 80%; padding: 153px 20px;}
+	.container-laranja h2{font-size: 39px; line-height: 50px;}
+	.container-laranja p{font-size: 24px;}
+}
+
+@media screen and (max-width:480px){
+	.container-amarelo{position:fixed; top:107px !important; left: 2%; width: 95%; padding: 15px 20px 0px 0px;}
+	.container-laranja{position:relative; top: 16px; left: 7%; width: 100%;}
+	.container-laranja h2{font-size: 36px; line-height: 40px;}
+	.container-laranja p{font-size: 20px;}
+
+}
+
+@media screen and (max-width:320px){
+	.container-laranja h2{font-size: 35px; line-height: 31px;}
+}
