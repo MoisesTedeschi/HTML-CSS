@@ -1,0 +1,114 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: #343641;
+  text-align: center;
+}
+
+#pikachu {
+  -webkit-border-radius: 26px;
+  -moz-border-radius: 26px;
+  -ms-border-radius: 26px;
+  -o-border-radius: 26px;
+  border-radius: 26px;
+  -webkit-box-shadow: inset 0 -20px 0 0 #ffb900, inset 0 1px 0 0 #ffda30;
+  -moz-box-shadow: inset 0 -20px 0 0 #ffb900, inset 0 1px 0 0 #ffda30;
+  box-shadow: inset 0 -20px 0 0 #ffb900, inset 0 1px 0 0 #ffda30;
+  position: relative;
+  display: inline-block;
+  margin: 15px;
+  width: 200px;
+  height: 200px;
+  background: #ffcd32;
+}
+#pikachu:before {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 0 1px #21222c, 88px 0 0 0 #302d2d, 88px 0 0 1px #21222c, -18px 56px 0 2px #ef4144, -18px 56px 0 3px #ff3845, 108px 56px 0 2px #ef4144, 108px 56px 0 3px #ff3845;
+  -moz-box-shadow: 0 0 0 1px #21222c, 88px 0 0 0 #302d2d, 88px 0 0 1px #21222c, -18px 56px 0 2px #ef4144, -18px 56px 0 3px #ff3845, 108px 56px 0 2px #ef4144, 108px 56px 0 3px #ff3845;
+  box-shadow: 0 0 0 1px #21222c, 88px 0 0 0 #302d2d, 88px 0 0 1px #21222c, -18px 56px 0 2px #ef4144, -18px 56px 0 3px #ff3845, 108px 56px 0 2px #ef4144, 108px 56px 0 3px #ff3845;
+  content: " ";
+  position: absolute;
+  top: 46px;
+  left: 36px;
+  width: 40px;
+  height: 40px;
+  background: #302d2d;
+  z-index: 10;
+}
+#pikachu:after {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 3px 0 0 #302d2d, 0 4px 0 0 #21222c, 32px 0 0 0 #ffcd32, 32px 3px 0 0 #302d2d, 32px 4px 0 0 #21222c, 1px 4px 0 0 #302d2d, 31px 4px 0 0 #302d2d, 15px -20px 0 -9px #302d2d;
+  -moz-box-shadow: 0 3px 0 0 #302d2d, 0 4px 0 0 #21222c, 32px 0 0 0 #ffcd32, 32px 3px 0 0 #302d2d, 32px 4px 0 0 #21222c, 1px 4px 0 0 #302d2d, 31px 4px 0 0 #302d2d, 15px -20px 0 -9px #302d2d;
+  box-shadow: 0 3px 0 0 #302d2d, 0 4px 0 0 #21222c, 32px 0 0 0 #ffcd32, 32px 3px 0 0 #302d2d, 32px 4px 0 0 #21222c, 1px 4px 0 0 #302d2d, 31px 4px 0 0 #302d2d, 15px -20px 0 -9px #302d2d;
+  content: " ";
+  position: absolute;
+  top: 100px;
+  left: 68px;
+  width: 32px;
+  height: 22px;
+}
+
+#pokemon-ball {
+  -webkit-border-radius: 26px;
+  -moz-border-radius: 26px;
+  -ms-border-radius: 26px;
+  -o-border-radius: 26px;
+  border-radius: 26px;
+  -webkit-box-shadow: inset 0 -1px 0 0 #201d1d;
+  -moz-box-shadow: inset 0 -1px 0 0 #201d1d;
+  box-shadow: inset 0 -1px 0 0 #201d1d;
+  position: relative;
+  display: inline-block;
+  margin: 15px;
+  width: 200px;
+  height: 200px;
+  background: #302d2d;
+  border-top: solid 78px #ef4144;
+  border-bottom: solid 96px #f6f7f8;
+}
+#pokemon-ball:before {
+  -webkit-border-radius: 26px;
+  -moz-border-radius: 26px;
+  -ms-border-radius: 26px;
+  -o-border-radius: 26px;
+  border-radius: 26px;
+  -webkit-box-shadow: inset 0 -20px 0 0 #e2e3e4, inset 0 1px 0 0 #fd4b4d;
+  -moz-box-shadow: inset 0 -20px 0 0 #e2e3e4, inset 0 1px 0 0 #fd4b4d;
+  box-shadow: inset 0 -20px 0 0 #e2e3e4, inset 0 1px 0 0 #fd4b4d;
+  content: " ";
+  position: absolute;
+  top: -78px;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  z-index: 10;
+}
+#pokemon-ball:after {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 1px 0 0 #201d1d, inset 0 0 0 19px #302d2d, inset 0 0 0 20px #201d1d;
+  -moz-box-shadow: 0 1px 0 0 #201d1d, inset 0 0 0 19px #302d2d, inset 0 0 0 20px #201d1d;
+  box-shadow: 0 1px 0 0 #201d1d, inset 0 0 0 19px #302d2d, inset 0 0 0 20px #201d1d;
+  content: " ";
+  position: absolute;
+  top: -27px;
+  left: 60px;
+  width: 80px;
+  height: 80px;
+  background: #f6f7f8;
+}
